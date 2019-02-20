@@ -1,0 +1,9 @@
+[
+  {
+    "outputFileName": "wwwroot/css/bootstrap.css",
+    "inputFiles": [
+      "node_modules/bootstrap/dist/css/bootstrap.css"
+    ]
+  }
+] 
+
