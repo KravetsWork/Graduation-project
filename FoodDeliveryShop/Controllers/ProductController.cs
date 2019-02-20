@@ -15,5 +15,7 @@ namespace FoodDeliveryShop.Controllers
         {
             repository = repo;
         }
+
+        public ViewResult List() => View(repository.Products);
     }
 }
