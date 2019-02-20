@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using FoodDeliveryShop.Models;
+using FoodDeliveryShop.Models.ViewModels;
 using Microsoft.AspNetCore.Mvc;
 
 namespace FoodDeliveryShop.Controllers
@@ -18,9 +19,18 @@ namespace FoodDeliveryShop.Controllers
         }
 
         public ViewResult List(int page = 1)
-            => View(repository.Products
-                .OrderBy(p => p.ProductID)
-                .Skip((page - 1) * PageSize)
-                .Take(PageSize));
+           => View(new ProductsListViewModel
+           {
+               Products = repository.Products
+                     .OrderBy(p => p.ProductID)
+                     .Skip((page - 1) * PageSize)
+                     .Take(PageSize),
+               PagingInfo = new PagingInfo
+               {
+                   CurrentPage = page,
+                   ItemsPerPage = PageSize,
+                   TotalItems = repository.Products.Count()
+               }
+           });
     }
 }
