@@ -11,7 +11,7 @@ using Microsoft.Extensions.DependencyInjection;
 namespace FoodDeliveryShop
 {
     public class Startup
-    { 
+    {
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddTransient<IProductRepository, FakeProductRepository>();
@@ -23,7 +23,11 @@ namespace FoodDeliveryShop
             app.UseDeveloperExceptionPage();
             app.UseStatusCodePages();
             app.UseStaticFiles();
-            app.UseMvc(routes => {
+            app.UseMvc(routes =>
+            {
+                routes.MapRoute(
+                    name: "default",
+                    template: "{controller=Product}/{action=List}/{id?}");
             });
         }
     }
