@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.28307.329
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FoodDeliveryShop", "FoodDeliveryShop\FoodDeliveryShop.csproj", "{DECCFEEA-9B13-4D85-8776-5BA7121CEC05}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FoodDeliveryShop", "FoodDeliveryShop", "{40A5DF9C-07A5-4B37-B3B0-D9A7D0D20CFF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,6 +20,9 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DECCFEEA-9B13-4D85-8776-5BA7121CEC05} = {40A5DF9C-07A5-4B37-B3B0-D9A7D0D20CFF}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A281DB9E-8DBA-4F09-8C7B-51B7A662BEA3}
