@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using FoodDeliveryShop.Models;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
@@ -13,6 +14,7 @@ namespace FoodDeliveryShop
     { 
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddTransient<IProductRepository, FakeProductRepository>();
             services.AddMvc();
         }
 
