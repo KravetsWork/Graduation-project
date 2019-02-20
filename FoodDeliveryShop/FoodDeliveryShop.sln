@@ -3,13 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.329
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FoodDeliveryShop", "FoodDeliveryShop\FoodDeliveryShop.csproj", "{DECCFEEA-9B13-4D85-8776-5BA7121CEC05}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FoodDeliveryShop", "FoodDeliveryShop\FoodDeliveryShop.csproj", "{DECCFEEA-9B13-4D85-8776-5BA7121CEC05}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{40A5DF9C-07A5-4B37-B3B0-D9A7D0D20CFF}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{11874320-AD26-467A-A82B-DD7A9E474A25}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FoodDeliveryShop.Tests", "FoodDeliveryShop.Tests\FoodDeliveryShop.Tests.csproj", "{E87F8288-B3EF-4800-9CF8-5ADF2921E9B7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,17 +19,12 @@ Global
 		{DECCFEEA-9B13-4D85-8776-5BA7121CEC05}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DECCFEEA-9B13-4D85-8776-5BA7121CEC05}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DECCFEEA-9B13-4D85-8776-5BA7121CEC05}.Release|Any CPU.Build.0 = Release|Any CPU
-		{E87F8288-B3EF-4800-9CF8-5ADF2921E9B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E87F8288-B3EF-4800-9CF8-5ADF2921E9B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{E87F8288-B3EF-4800-9CF8-5ADF2921E9B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{E87F8288-B3EF-4800-9CF8-5ADF2921E9B7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{DECCFEEA-9B13-4D85-8776-5BA7121CEC05} = {40A5DF9C-07A5-4B37-B3B0-D9A7D0D20CFF}
-		{E87F8288-B3EF-4800-9CF8-5ADF2921E9B7} = {11874320-AD26-467A-A82B-DD7A9E474A25}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A281DB9E-8DBA-4F09-8C7B-51B7A662BEA3}
