@@ -1,9 +1,11 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using FoodDeliveryShop.Models;
 using System.Linq;
+using Microsoft.AspNetCore.Authorization;
 
 namespace FoodDeliveryShop.Controllers
 {
+    [Authorize]
     public class AdminController : Controller
     {
         private IProductRepository repository;
