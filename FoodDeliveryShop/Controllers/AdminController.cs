@@ -34,6 +34,8 @@ namespace FoodDeliveryShop.Controllers
                 return View(product);
             }
         }
+
+        public ViewResult Create() => View("Edit", new Product());
     }
 }
 
