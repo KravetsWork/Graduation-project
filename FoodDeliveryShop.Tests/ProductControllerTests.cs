@@ -7,7 +7,7 @@ using System.Linq;
 using System.Collections.Generic;
 using FoodDeliveryShop.Models.ViewModels;
 
-namespace FoodDeliveryShop.Tests
+namespace FoodDeliveryShopTests
 {
     public class ProductControllerTests
     {

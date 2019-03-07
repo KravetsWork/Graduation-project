@@ -9,7 +9,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{40A5DF9C-07A
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{11874320-AD26-467A-A82B-DD7A9E474A25}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FoodDeliveryShop.Tests", "FoodDeliveryShop.Tests\FoodDeliveryShop.Tests.csproj", "{E87F8288-B3EF-4800-9CF8-5ADF2921E9B7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FoodDeliveryShopTests", "FoodDeliveryShop.Tests\FoodDeliveryShopTests.csproj", "{E87F8288-B3EF-4800-9CF8-5ADF2921E9B7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -8,7 +8,7 @@ using System.Collections.Generic;
 using System.Threading.Tasks;  
 using Xunit;
 
-namespace FoodDeliveryShop.Tests
+namespace FoodDeliveryShopTests
 {
     public class PageLinkTagHelperTests
     {
