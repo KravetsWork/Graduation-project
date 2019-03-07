@@ -21,6 +21,7 @@ namespace FoodDeliveryShop
                 options.UseSqlServer(
                     Configuration["Data:FoodDeliveryShopProducts:ConnectionString"]));
             services.AddTransient<IProductRepository, EFProductRepository>();
+            services.AddTransient<IOrderRepository, EFOrderRepository>();
             services.AddMvc();
             services.AddScoped<Cart>(sp => SessionCart.GetCart(sp));
             services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
