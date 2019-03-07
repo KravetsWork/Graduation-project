@@ -7,11 +7,11 @@ using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
-namespace FoodDeliveryShop.Migrations
+namespace FoodDeliveryShop.Migrations.ApplicationDb
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20190307200424_ShippedOrders")]
-    partial class ShippedOrders
+    [Migration("20190307214905_Products")]
+    partial class Products
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -84,11 +84,14 @@ namespace FoodDeliveryShop.Migrations
                         .ValueGeneratedOnAdd()
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-                    b.Property<string>("Category");
+                    b.Property<string>("Category")
+                        .IsRequired();
 
-                    b.Property<string>("Description");
+                    b.Property<string>("Description")
+                        .IsRequired();
 
-                    b.Property<string>("Name");
+                    b.Property<string>("Name")
+                        .IsRequired();
 
                     b.Property<decimal>("Price");
 
