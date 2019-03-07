@@ -1,6 +1,7 @@
 ﻿using FoodDeliveryShop.Models;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.AspNetCore.Http;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -21,9 +22,10 @@ namespace FoodDeliveryShop
                     Configuration["Data:FoodDeliveryShopProducts:ConnectionString"]));
             services.AddTransient<IProductRepository, EFProductRepository>();
             services.AddMvc();
+            services.AddScoped<Cart>(sp => SessionCart.GetCart(sp));
+            services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
             services.AddMemoryCache();
             services.AddSession();
-
         }
 
         public void Configure(IApplicationBuilder app, IHostingEnvironment env)
