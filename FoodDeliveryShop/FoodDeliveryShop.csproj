@@ -9,9 +9,87 @@
   </ItemGroup>
 
   <ItemGroup>
+    <None Include="wwwroot\fontawesome-free-5.7.2-web\js\all.js" />
+    <None Include="wwwroot\fontawesome-free-5.7.2-web\js\all.min.js" />
+    <None Include="wwwroot\fontawesome-free-5.7.2-web\js\brands.js" />
+    <None Include="wwwroot\fontawesome-free-5.7.2-web\js\brands.min.js" />
+    <None Include="wwwroot\fontawesome-free-5.7.2-web\js\fontawesome.js" />
+    <None Include="wwwroot\fontawesome-free-5.7.2-web\js\fontawesome.min.js" />
+    <None Include="wwwroot\fontawesome-free-5.7.2-web\js\regular.js" />
+    <None Include="wwwroot\fontawesome-free-5.7.2-web\js\regular.min.js" />
+    <None Include="wwwroot\fontawesome-free-5.7.2-web\js\solid.js" />
+    <None Include="wwwroot\fontawesome-free-5.7.2-web\js\solid.min.js" />
+    <None Include="wwwroot\fontawesome-free-5.7.2-web\js\v4-shims.js" />
+    <None Include="wwwroot\fontawesome-free-5.7.2-web\js\v4-shims.min.js" />
+    <None Include="wwwroot\fontawesome-free-5.7.2-web\less\brands.less" />
+    <None Include="wwwroot\fontawesome-free-5.7.2-web\less\fontawesome.less" />
+    <None Include="wwwroot\fontawesome-free-5.7.2-web\less\regular.less" />
+    <None Include="wwwroot\fontawesome-free-5.7.2-web\less\solid.less" />
+    <None Include="wwwroot\fontawesome-free-5.7.2-web\less\v4-shims.less" />
+    <None Include="wwwroot\fontawesome-free-5.7.2-web\less\_animated.less" />
+    <None Include="wwwroot\fontawesome-free-5.7.2-web\less\_bordered-pulled.less" />
+    <None Include="wwwroot\fontawesome-free-5.7.2-web\less\_core.less" />
+    <None Include="wwwroot\fontawesome-free-5.7.2-web\less\_fixed-width.less" />
+    <None Include="wwwroot\fontawesome-free-5.7.2-web\less\_icons.less" />
+    <None Include="wwwroot\fontawesome-free-5.7.2-web\less\_larger.less" />
+    <None Include="wwwroot\fontawesome-free-5.7.2-web\less\_list.less" />
+    <None Include="wwwroot\fontawesome-free-5.7.2-web\less\_mixins.less" />
+    <None Include="wwwroot\fontawesome-free-5.7.2-web\less\_rotated-flipped.less" />
+    <None Include="wwwroot\fontawesome-free-5.7.2-web\less\_screen-reader.less" />
+    <None Include="wwwroot\fontawesome-free-5.7.2-web\less\_shims.less" />
+    <None Include="wwwroot\fontawesome-free-5.7.2-web\less\_stacked.less" />
+    <None Include="wwwroot\fontawesome-free-5.7.2-web\less\_variables.less" />
+    <None Include="wwwroot\fontawesome-free-5.7.2-web\metadata\categories.yml" />
+    <None Include="wwwroot\fontawesome-free-5.7.2-web\metadata\icons.yml" />
+    <None Include="wwwroot\fontawesome-free-5.7.2-web\metadata\shims.yml" />
+    <None Include="wwwroot\fontawesome-free-5.7.2-web\metadata\sponsors.yml" />
+    <None Include="wwwroot\fontawesome-free-5.7.2-web\scss\brands.scss" />
+    <None Include="wwwroot\fontawesome-free-5.7.2-web\scss\fontawesome.scss" />
+    <None Include="wwwroot\fontawesome-free-5.7.2-web\scss\regular.scss" />
+    <None Include="wwwroot\fontawesome-free-5.7.2-web\scss\solid.scss" />
+    <None Include="wwwroot\fontawesome-free-5.7.2-web\scss\v4-shims.scss" />
+    <None Include="wwwroot\fontawesome-free-5.7.2-web\scss\_animated.scss" />
+    <None Include="wwwroot\fontawesome-free-5.7.2-web\scss\_bordered-pulled.scss" />
+    <None Include="wwwroot\fontawesome-free-5.7.2-web\scss\_core.scss" />
+    <None Include="wwwroot\fontawesome-free-5.7.2-web\scss\_fixed-width.scss" />
+    <None Include="wwwroot\fontawesome-free-5.7.2-web\scss\_icons.scss" />
+    <None Include="wwwroot\fontawesome-free-5.7.2-web\scss\_larger.scss" />
+    <None Include="wwwroot\fontawesome-free-5.7.2-web\scss\_list.scss" />
+    <None Include="wwwroot\fontawesome-free-5.7.2-web\scss\_mixins.scss" />
+    <None Include="wwwroot\fontawesome-free-5.7.2-web\scss\_rotated-flipped.scss" />
+    <None Include="wwwroot\fontawesome-free-5.7.2-web\scss\_screen-reader.scss" />
+    <None Include="wwwroot\fontawesome-free-5.7.2-web\scss\_shims.scss" />
+    <None Include="wwwroot\fontawesome-free-5.7.2-web\scss\_stacked.scss" />
+    <None Include="wwwroot\fontawesome-free-5.7.2-web\scss\_variables.scss" />
+    <None Include="wwwroot\fontawesome-free-5.7.2-web\sprites\brands.svg" />
+    <None Include="wwwroot\fontawesome-free-5.7.2-web\sprites\regular.svg" />
+    <None Include="wwwroot\fontawesome-free-5.7.2-web\sprites\solid.svg" />
+    <None Include="wwwroot\fontawesome-free-5.7.2-web\svgs\regular\address-book.svg" />
+    <None Include="wwwroot\fontawesome-free-5.7.2-web\svgs\regular\address-card.svg" />
+    <None Include="wwwroot\fontawesome-free-5.7.2-web\svgs\regular\angry.svg" />
+    <None Include="wwwroot\fontawesome-free-5.7.2-web\svgs\regular\arrow-alt-circle-down.svg" />
+    <None Include="wwwroot\fontawesome-free-5.7.2-web\svgs\regular\arrow-alt-circle-left.svg" />
+    <None Include="wwwroot\fontawesome-free-5.7.2-web\svgs\regular\arrow-alt-circle-right.svg" />
+    <None Include="wwwroot\fontawesome-free-5.7.2-web\svgs\regular\arrow-alt-circle-up.svg" />
+    <None Include="wwwroot\fontawesome-free-5.7.2-web\svgs\regular\bell-slash.svg" />
+    <None Include="wwwroot\fontawesome-free-5.7.2-web\svgs\regular\bell.svg" />
+    <None Include="wwwroot\fontawesome-free-5.7.2-web\webfonts\fa-brands-400.svg" />
+    <None Include="wwwroot\fontawesome-free-5.7.2-web\webfonts\fa-brands-400.woff2" />
+    <None Include="wwwroot\fontawesome-free-5.7.2-web\webfonts\fa-regular-400.svg" />
+    <None Include="wwwroot\fontawesome-free-5.7.2-web\webfonts\fa-regular-400.woff2" />
+    <None Include="wwwroot\fontawesome-free-5.7.2-web\webfonts\fa-solid-900.svg" />
+    <None Include="wwwroot\fontawesome-free-5.7.2-web\webfonts\fa-solid-900.woff2" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.App" />
     <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.1.2" PrivateAssets="All" />
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.1.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\fontawesome-free-5.7.2-web\svgs\brands\" />
+    <Folder Include="wwwroot\fontawesome-free-5.7.2-web\svgs\solid\" />
   </ItemGroup>
 
 </Project>
