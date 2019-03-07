@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace FoodDeliveryShop.Models
 {
-    public class FakeProductRepository : IProductRepository
+    public class FakeProductRepository /* : IProductRepository */
     {
         public IEnumerable<Product> Products => new List<Product>
         {
