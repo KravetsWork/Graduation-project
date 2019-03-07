@@ -1,9 +1,26 @@
 [
   {
-    "outputFileName": "wwwroot/css/bootstrap.css",
     "inputFiles": [
       "node_modules/bootstrap/dist/css/bootstrap.css"
-    ]
+    ],
+    "outputFileName": "wwwroot/css/bootstrap.css"
+  },
+  {
+    "inputFiles": [
+      "node_modules/jquery/dist/jquery.min.js"
+    ],
+    "outputFileName": "wwwroot/jquery/jquery.min.js"
+  },
+  {
+    "inputFiles": [
+      "node_modules/jquery-validation/dist/jquery.validate.min.js"
+    ],
+    "outputFileName": "wwwroot/jquery-validation/jquery.validate.min.js"
+  },
+  {
+    "inputFiles": [
+      "node_modules/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.min.js"
+    ],
+    "outputFileName": "wwwroot/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"
   }
-] 
-
+]  
