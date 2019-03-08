@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using FoodDeliveryShop.Models.ViewModels;
+using FoodDeliveryShop.Models;
 
 namespace FoodDeliveryShop.Controllers
 {
@@ -17,6 +18,7 @@ namespace FoodDeliveryShop.Controllers
         {
             userManager = userMgr;
             signInManager = signInMgr;
+            IdentitySeedData.EnsurePopulated(userMgr).Wait();
         }
 
         [AllowAnonymous]
