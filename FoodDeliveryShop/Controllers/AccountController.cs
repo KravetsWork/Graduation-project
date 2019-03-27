@@ -7,6 +7,9 @@ using FoodDeliveryShop.Models;
 
 namespace FoodDeliveryShop.Controllers
 {
+    /// <summary>
+    /// The controller that is responsible for admin access to the site.
+    /// </summary>
     [Authorize]
     public class AccountController : Controller
     {

@@ -5,6 +5,10 @@ using System.Threading.Tasks;
 
 namespace FoodDeliveryShop.Models
 {
+    /// <summary>
+    /// Class that creates the Admin user, filling the database 
+    /// with initial data when the application is started.
+    /// </summary>
     public static class IdentitySeedData
     {
         private const string adminUser = "Admin";

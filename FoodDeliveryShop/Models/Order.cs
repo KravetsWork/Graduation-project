@@ -4,6 +4,9 @@ using Microsoft.AspNetCore.Mvc.ModelBinding;
 
 namespace FoodDeliveryShop.Models
 {
+    /// <summary>
+    /// The class that is used to present the delivery information to the user.
+    /// </summary>
     public class Order
     {
         [BindNever]

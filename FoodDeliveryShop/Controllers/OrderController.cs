@@ -5,6 +5,9 @@ using Microsoft.AspNetCore.Authorization;
 
 namespace FoodDeliveryShop.Controllers
 {
+    /// <summary>
+    /// The controller that is responsible for processing orders.
+    /// </summary>
     public class OrderController : Controller
     {
         private IOrderRepository repository;

@@ -5,6 +5,11 @@ using System.Threading.Tasks;
 
 namespace FoodDeliveryShop.Models.ViewModels
 {
+    /// <summary>
+    /// The view model class that is used to transfer data between the controller 
+    /// and the view. And conveys information about the number of pages available, 
+    /// current page and total number of items in the repository.
+    /// </summary>
     public class PagingInfo
     {
         public int TotalItems { get; set; }  

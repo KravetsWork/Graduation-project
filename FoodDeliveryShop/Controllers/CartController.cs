@@ -5,6 +5,9 @@ using FoodDeliveryShop.Models.ViewModels;
 
 namespace FoodDeliveryShop.Controllers
 {
+    /// <summary>
+    /// The controller that is responsible for editing the items in the cart.
+    /// </summary>
     public class CartController : Controller
     {
         private IProductRepository repository;

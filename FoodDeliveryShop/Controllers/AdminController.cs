@@ -5,6 +5,9 @@ using Microsoft.AspNetCore.Authorization;
 
 namespace FoodDeliveryShop.Controllers
 {
+    /// <summary>
+    /// The controller that is responsible for administering the products.
+    /// </summary>
     [Authorize]
     public class AdminController : Controller
     {

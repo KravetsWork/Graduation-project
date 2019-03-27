@@ -5,6 +5,9 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace FoodDeliveryShop.Controllers
 {
+    /// <summary>
+    /// The controller that is responsible for displaying the products.
+    /// </summary>
     public class ProductController : Controller
     {
         private IProductRepository repository;

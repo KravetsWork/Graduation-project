@@ -5,6 +5,10 @@ using System.Threading.Tasks;
 
 namespace FoodDeliveryShop.Models
 {
+    /// <summary>
+    /// A class that implements the IProductRepository interface 
+    /// and retrieves data using the Entity Framework Core.
+    /// </summary>
     public class EFProductRepository : IProductRepository
     {
         private ApplicationDbContext context;

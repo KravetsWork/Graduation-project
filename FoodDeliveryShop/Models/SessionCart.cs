@@ -6,6 +6,9 @@ using System;
 
 namespace FoodDeliveryShop.Models
 {
+    /// <summary>
+    /// Subclass that knows how to save itself using session state.
+    /// </summary>
     public class SessionCart : Cart
     {
         public static Cart GetCart(IServiceProvider services)

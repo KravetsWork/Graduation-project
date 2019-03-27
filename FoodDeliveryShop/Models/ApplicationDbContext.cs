@@ -6,6 +6,10 @@ using System.Threading.Tasks;
 
 namespace FoodDeliveryShop.Models
 {
+    /// <summary>
+    /// The database context class is the gateway between the application 
+    /// and the EF Core, providing access to application data using model objects.
+    /// </summary>
     public class ApplicationDbContext : DbContext
     {
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options)

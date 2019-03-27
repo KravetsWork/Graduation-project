@@ -5,6 +5,10 @@ using System.Threading.Tasks;
 
 namespace FoodDeliveryShop.Models
 {
+    /// <summary>
+    /// Dummy interface implementation IProductRepository,
+    /// which replaced the storage previously.
+    /// </summary>
     public class FakeProductRepository /* : IProductRepository */
     {
         public IEnumerable<Product> Products => new List<Product>

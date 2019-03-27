@@ -3,6 +3,14 @@ using System.Linq;
 
 namespace FoodDeliveryShop.Models
 {
+    /// <summary>
+    /// The Cart class uses the CartLine class, which is defined in the same file.
+    /// and represents the product selected by the user, as well as the quantity purchased. 
+    /// We defined methods for adding an item to the cart, deleting an item
+    /// that of the basket, calculating the total cost of items in the basket and emptying the basket
+    /// by removing all items.We also provided a property that allows
+    /// access the contents of the cart using IEnumerable <CartLine>.
+    /// </summary>
     public class Cart
     {
         private List<CartLine> lineCollection = new List<CartLine>();

@@ -3,7 +3,10 @@ using System.Collections.Generic;
 using System.Linq;  
   
 namespace FoodDeliveryShop.Models  
-{  
+{
+    // <summary>
+    /// Implementation of the order store interface.
+    /// </summary>
     public class EFOrderRepository : IOrderRepository  
     {  
         private ApplicationDbContext context;  

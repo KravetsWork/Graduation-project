@@ -2,6 +2,9 @@
 
 namespace FoodDeliveryShop.Models
 {
+    /// <summary>
+    /// The core of the MVC application is the domain model, as for the goods.
+    /// </summary>
     public class Product
     {
         public int ProductID { get; set; }

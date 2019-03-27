@@ -2,6 +2,9 @@
 
 namespace FoodDeliveryShop.Models.ViewModels
 {
+    /// <summary>
+    /// View model for user credentials.
+    /// </summary>
     public class LoginModel
     {
         [Required]

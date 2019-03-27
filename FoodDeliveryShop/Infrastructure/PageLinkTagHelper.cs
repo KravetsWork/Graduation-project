@@ -8,6 +8,12 @@ using System.Collections.Generic;
 
 namespace FoodDeliveryShop.Infrastructure
 {
+    /// <summary>
+    /// The descriptor helper class offers one of the most convenient ways to put C# 
+    /// logic into representations. But using descriptor helper classes is the preferred
+    /// way to include C# blocks of code into the view, since the descriptor helper. 
+    /// class can be easily subjected to unit testing.
+    /// </summary>
     [HtmlTargetElement("div", Attributes = "page-model")]
     public class PageLinkTagHelper : TagHelper
     {

@@ -4,6 +4,9 @@ using FoodDeliveryShop.Models;
 
 namespace FoodDeliveryShop.Components
 {
+    /// <summary>
+    /// Class responsible for the correct display of goods on the page.
+    /// </summary>
     public class NavigationMenuViewComponent : ViewComponent
     {
         private IProductRepository repository;

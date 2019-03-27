@@ -8,6 +8,9 @@ using System.Threading.Tasks;
 
 namespace FoodDeliveryShop.Models
 {
+    /// <summary>
+    /// The SeedData.cs class is used to populate a database with products.
+    /// </summary>
     public class SeedData
     {
         public static void EnsurePopulated(IServiceProvider services)
